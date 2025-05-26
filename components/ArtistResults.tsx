@@ -57,7 +57,7 @@ export default function ArtistResults({
                   </a>
                 </Button>
               </div>
-              console.log({artist.soundcloud_url})
+
               {artist.description && (
                 <p className="text-muted-foreground text-sm mb-3 line-clamp-3">
                   {artist.description}
