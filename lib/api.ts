@@ -14,6 +14,7 @@ Always respond with JSON only in the exact format:
       "description": "Brief 1-2 sentence description of the artist",
       "popularity": 85,
       "years_active": "1990-present"
+      "soundcloud_url": "https://soundcloud/artist"
     }
   ]
 }

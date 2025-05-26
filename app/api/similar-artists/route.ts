@@ -43,15 +43,18 @@ Return exactly this JSON structure with 5 similar artists to the requested artis
       "genre": "Primary Genre",
       "description": "Brief 1-2 sentence description of the artist and their style",
       "popularity": 85,
-      "years_active": "1990-present"
+      "soundcloud_url": "https://soundcloud/artist",
     }
   ]
 }
 
 Rules:
 - Always return exactly 5 artists
+- Never include the original artist in the list
 - Popularity must be a number between 1-100
 - Description should be 1-2 sentences maximum
+- The SoundCloud URL must be a valid URL
+- The SoundCloud artist page should be a verified artist page
 - Only return the JSON, no other text or markdown formatting`,
         },
         {
@@ -59,8 +62,8 @@ Rules:
           content: `Find 5 similar artists to ${artistName}`,
         },
       ],
-      temperature: 0.7,
-      max_tokens: 1500,
+      temperature: 0.8,
+      max_tokens: 500,
     });
 
     const content = completion.choices[0]?.message?.content;
