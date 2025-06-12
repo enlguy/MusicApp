@@ -1,1 +1,3 @@
-This is a project I have not deployed to avoid public abuse of my OpenAI API key (recruiters or collaborators may request access, but as I pay for API use, I cannot allow public access unless I paywalled the entire app).
+This is a project I have not deployed to avoid public abuse of my OpenAI API key (recruiters or collaborators may request access, but as I pay for API use, I cannot allow public access unless I paywall the entire app, and that's not in the plans).
+
+This is a music recommendation app that uses OpenAI GPT-4 to suggest five new artists based on an initial artist suggestion.  You may then select one of the new suggestions to get five more based on that artist, and so on.  There is a visual reference tree at the top of the page to show the artists you've explored.  Each artist card has a description and SoundCloud link.
