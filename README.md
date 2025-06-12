@@ -1,0 +1,1 @@
+This is a project I have not deployed to avoid public abuse of my OpenAI API key (recruiters or collaborators may request access, but as I pay for API use, I cannot allow public access unless I paywalled the entire app).
